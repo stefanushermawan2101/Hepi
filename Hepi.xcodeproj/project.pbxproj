@@ -10,6 +10,7 @@
 		722A324228D8456B00E54DB2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A324128D8456B00E54DB2 /* LoginController.swift */; };
 		722A324428D846E400E54DB2 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A324328D846E400E54DB2 /* RegistrationController.swift */; };
 		722A324628D84AE800E54DB2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A324528D84AE800E54DB2 /* Extensions.swift */; };
+		722A324828D8832600E54DB2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A324728D8832600E54DB2 /* Utilities.swift */; };
 		72F637A328D712FD00CB1F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F637A228D712FD00CB1F7D /* AppDelegate.swift */; };
 		72F637A528D712FD00CB1F7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F637A428D712FD00CB1F7D /* SceneDelegate.swift */; };
 		72F637AA28D712FD00CB1F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F637A828D712FD00CB1F7D /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		722A324128D8456B00E54DB2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		722A324328D846E400E54DB2 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		722A324528D84AE800E54DB2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		722A324728D8832600E54DB2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		72F6379F28D712FD00CB1F7D /* Hepi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hepi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F637A228D712FD00CB1F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72F637A428D712FD00CB1F7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				722A324528D84AE800E54DB2 /* Extensions.swift */,
+				722A324728D8832600E54DB2 /* Utilities.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722A324828D8832600E54DB2 /* Utilities.swift in Sources */,
 				722A324628D84AE800E54DB2 /* Extensions.swift in Sources */,
 				72F637A328D712FD00CB1F7D /* AppDelegate.swift in Sources */,
 				72F637A528D712FD00CB1F7D /* SceneDelegate.swift in Sources */,
