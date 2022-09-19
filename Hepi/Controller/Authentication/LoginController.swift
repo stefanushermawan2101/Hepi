@@ -46,7 +46,7 @@ class LoginController: UIViewController {
     
     private let loginButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Login", for: .normal)
+        button.setTitle("Log In", for: .normal)
         button.setTitleColor(.brown, for: .normal)
         button.backgroundColor = .white
         button.heightAnchor.constraint(equalToConstant: 50).isActive = true
@@ -82,7 +82,8 @@ class LoginController: UIViewController {
     }
     
     @objc func handleShowSignUp() {
-        print("masuk signup")
+        let controller = RegistrationController()
+        navigationController?.pushViewController(controller, animated: true)
     }
     
     @objc func handleShowForgotPassword() {
